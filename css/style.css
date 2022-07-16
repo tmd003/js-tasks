@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+#counter-section {
+    background-color: ghostwhite;
+}
+
+#counter-section .container {
+    padding-top: 50px;
+}
+
+#counter-section .text-area, .btns {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#counter-section .btns {
+    padding-bottom: 26px;
+}
+
+#counter-section .btns {
+    display: flex;
+    justify-content: center;
+}
+
+#counter-section .btn {
+    margin-right: 10px;
+    background-color: pink;
+    color: white;
+    border-radius: 3px;
+    width: 130px;
+    font-size: 20px;
+}
+
+
+
+.span {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.text-area h2 {
+    margin-top: 20px;
+}
+
+
+#counter-section .text-area span {
+    margin-top: 20px;
+}
+
+#card-section {
+    background-color: ghostwhite;
+    padding: 20px;
+}
+
+#card-section .card-title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#card-section .card {
+    background-color: pink;
+    border-radius: 15px;
+    width: 30%;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+#card-section ul {
+    list-style: none;
+}
+
+#card-section .card-title h3, h4 {
+    font-size: 25px;
+}
+
+#card-section .card-title p {
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 426px) {
+    #counter-section .btns {
+        margin: 9px 29px 0px 35px;
+    }
+
+    #card-section .card {
+    width: 100%;
+}
+    
+}
